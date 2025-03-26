@@ -1,21 +1,25 @@
-import Carrusel from './components/carrucel.jsx';
-import NavBar from './components/navbar.jsx';
-import Nav from './components/Nav.jsx';
-import Page from './components/Page.jsx';
-import Placeholders from './components/Placeholders.jsx';
+import React, { useState } from "react";
+import Carrusel from '../components/carrusel';
+import Nav from '../components/Nav';
+import NavBar from '../components/navBar';
+import Page from '../components/Page';
+import PlaceHolders from '../components/Placeholders';
+
+
 
 function App() {
     return (
       <div>
         <Carrusel />
         <hr></hr>
-        <NavBar />
-        <hr></hr>
         <Nav />
+        <hr></hr>
+        <NavBar />
         <hr></hr>
         <Page />
         <hr></hr>
-        <Placeholders />
+        <PlaceHolders />
+
         </div>
   );
 }
